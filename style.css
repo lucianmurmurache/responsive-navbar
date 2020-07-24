@@ -38,6 +38,10 @@ body::-webkit-scrollbar-thumb {
     box-shadow: var(--box-shadow-small);
 }
 
+.ipsum img {
+    width: 60%;
+}
+
 h1 {
     text-align: center;
 }
