@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="theme.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Bob's responsive navbar</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="navbar-nav">
+
+            <li class="logo">
+                <a href="#" class="nav-link">
+                    <span class="link-text logo-text">Bob Ross</span>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="angle-double-right"
+                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                        class="svg-inline--fa fa-angle-double-right fa-w-14 fa-5x">
+                        <g class="fa-group">
+                            <path fill="currentColor"
+                                d="M224 273L88.37 409a23.78 23.78 0 0 1-33.8 0L32 386.36a23.94 23.94 0 0 1 0-33.89l96.13-96.37L32 159.73a23.94 23.94 0 0 1 0-33.89l22.44-22.79a23.78 23.78 0 0 1 33.8 0L223.88 239a23.94 23.94 0 0 1 .1 34z"
+                                class="fa-secondary"></path>
+                            <path fill="currentColor"
+                                d="M415.89 273L280.34 409a23.77 23.77 0 0 1-33.79 0L224 386.26a23.94 23.94 0 0 1 0-33.89L320.11 256l-96-96.47a23.94 23.94 0 0 1 0-33.89l22.52-22.59a23.77 23.77 0 0 1 33.79 0L416 239a24 24 0 0 1-.11 34z"
+                                class="fa-primary"></path>
+                        </g>
+                    </svg>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="palette" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                        class="svg-inline--fa fa-palette fa-w-14 fa-5x">
+                        <g class="fa-group">
+                            <path fill="currentColor"
+                                d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"
+                                class="fa-secondary"></path>
+                            <path fill="currentColor"
+                                d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"
+                                class="fa-primary"></path>
+                        </g>
+                    </svg>
+                    <span class="link-text">Palette 1</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="palette" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                        class="svg-inline--fa fa-palette fa-w-14 fa-5x">
+                        <g class="fa-group">
+                            <path fill="currentColor"
+                                d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"
+                                class="fa-secondary"></path>
+                            <path fill="currentColor"
+                                d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"
+                                class="fa-primary"></path>
+                        </g>
+                    </svg>
+                    <span class="link-text">Palette 2</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="palette" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                        class="svg-inline--fa fa-palette fa-w-14 fa-5x">
+                        <g class="fa-group">
+                            <path fill="currentColor"
+                                d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"
+                                class="fa-secondary"></path>
+                            <path fill="currentColor"
+                                d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"
+                                class="fa-primary"></path>
+                        </g>
+                    </svg>
+                    <span class="link-text">Palette 3</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="palette" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                        class="svg-inline--fa fa-palette fa-w-14 fa-5x">
+                        <g class="fa-group">
+                            <path fill="currentColor"
+                                d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"
+                                class="fa-secondary"></path>
+                            <path fill="currentColor"
+                                d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"
+                                class="fa-primary"></path>
+                        </g>
+                    </svg>
+                    <span class="link-text">Palette 4</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="palette" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                        class="svg-inline--fa fa-palette fa-w-14 fa-5x">
+                        <g class="fa-group">
+                            <path fill="currentColor"
+                                d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"
+                                class="fa-secondary"></path>
+                            <path fill="currentColor"
+                                d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"
+                                class="fa-primary"></path>
+                        </g>
+                    </svg>
+                    <span class="link-text">Palette 5</span>
+                </a>
+            </li>
+
+            <li class="nav-item" id="themeButton">
+                <a href="#" class="nav-link">
+                    <svg class="theme-icon" id="lightIcon" aria-hidden="true" focusable="false" data-prefix="fad"
+                        data-icon="moon-stars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                        class="svg-inline--fa fa-moon-stars fa-w-16 fa-7x">
+                        <g class="fa-group">
+                            <path fill="currentColor"
+                                d="M320 32L304 0l-16 32-32 16 32 16 16 32 16-32 32-16zm138.7 149.3L432 128l-26.7 53.3L352 208l53.3 26.7L432 288l26.7-53.3L512 208z"
+                                class="fa-secondary"></path>
+                            <path fill="currentColor"
+                                d="M332.2 426.4c8.1-1.6 13.9 8 8.6 14.5a191.18 191.18 0 0 1-149 71.1C85.8 512 0 426 0 320c0-120 108.7-210.6 227-188.8 8.2 1.6 10.1 12.6 2.8 16.7a150.3 150.3 0 0 0-76.1 130.8c0 94 85.4 165.4 178.5 147.7z"
+                                class="fa-primary"></path>
+                        </g>
+                    </svg>
+                    <svg class="theme-icon" id="darkIcon" aria-hidden="true" focusable="false" data-prefix="fad"
+                        data-icon="sunglasses" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                        class="svg-inline--fa fa-sunglasses fa-w-18 fa-7x">
+                        <g class="fa-group">
+                            <path fill="currentColor"
+                                d="M574.09 280.38L528.75 98.66a87.94 87.94 0 0 0-113.19-62.14l-15.25 5.08a16 16 0 0 0-10.12 20.25L395.25 77a16 16 0 0 0 20.22 10.13l13.19-4.39c10.87-3.63 23-3.57 33.15 1.73a39.59 39.59 0 0 1 20.38 25.81l38.47 153.83a276.7 276.7 0 0 0-81.22-12.47c-34.75 0-74 7-114.85 26.75h-73.18c-40.85-19.75-80.07-26.75-114.85-26.75a276.75 276.75 0 0 0-81.22 12.45l38.47-153.8a39.61 39.61 0 0 1 20.38-25.82c10.15-5.29 22.28-5.34 33.15-1.73l13.16 4.39A16 16 0 0 0 180.75 77l5.06-15.19a16 16 0 0 0-10.12-20.21l-15.25-5.08A87.95 87.95 0 0 0 47.25 98.65L1.91 280.38A75.35 75.35 0 0 0 0 295.86v70.25C0 429 51.59 480 115.19 480h37.12c60.28 0 110.38-45.94 114.88-105.37l2.93-38.63h35.76l2.93 38.63c4.5 59.43 54.6 105.37 114.88 105.37h37.12C524.41 480 576 429 576 366.13v-70.25a62.67 62.67 0 0 0-1.91-15.5zM203.38 369.8c-2 25.9-24.41 46.2-51.07 46.2h-37.12C87 416 64 393.63 64 366.11v-37.55a217.35 217.35 0 0 1 72.59-12.9 196.51 196.51 0 0 1 69.91 12.9zM512 366.13c0 27.5-23 49.87-51.19 49.87h-37.12c-26.69 0-49.1-20.3-51.07-46.2l-3.12-41.24a196.55 196.55 0 0 1 69.94-12.9A217.41 217.41 0 0 1 512 328.58z"
+                                class="fa-secondary"></path>
+                            <path fill="currentColor"
+                                d="M64.19 367.9c0-.61-.19-1.18-.19-1.8 0 27.53 23 49.9 51.19 49.9h37.12c26.66 0 49.1-20.3 51.07-46.2l3.12-41.24c-14-5.29-28.31-8.38-42.78-10.42zm404-50l-95.83 47.91.3 4c2 25.9 24.38 46.2 51.07 46.2h37.12C489 416 512 393.63 512 366.13v-37.55a227.76 227.76 0 0 0-43.85-10.66z"
+                                class="fa-primary"></path>
+                        </g>
+                    </svg>
+                    <span class="link-text">Colour theme</span>
+                </a>
+            </li>
+
+
+        </ul>
+    </nav>
+    <main>
+        <h1>Bob Ross Ipsum</h1>
+        <div class="ipsum">
+            <p>
+                And I know you're saying, 'Oh Bob, you've done it this time.' And you may be right. There it is. Let's
+                give him a friend too. Everybody needs a friend. Maybe there was an old trapper that lived out here and
+                maybe one day he went to check his beaver traps, and maybe he fell into the river and drowned.
+                In your world you have total and absolute power. It all happens automatically. Remember how free clouds
+                are. They just lay around in the sky all day long. Fluff that up. Let's just drop a little Evergreen
+                right here. If you hypnotize it, it will go away. You are only limited by your imagination. Talent is a
+                pursued interest. That is to say, anything you practice you can do. If you've been in Alaska less than a
+                year you're a Cheechako. Poor old tree. That's a son of a gun of a cloud. Maybe he has a little friend
+                that lives right over here. This present moment is perfect simply due to the fact you're experiencing
+                it. That's what makes life fun. That you can make these decisions. That you can create the world that
+                you want. I like to beat the brush. Do an almighty painting with us. I thought today we would make a
+                happy little stream that's just running through the woods here. That easy. These trees are so much fun.
+                I get started on them and I have a hard time stopping. You want your tree to have some character. Make
+                it special. We can always carry this a step further. There's really no end to this. And I will hypnotize
+                that just a little bit. We'll put a happy little bush here. It's important to me that you're happy.
+                These little son of a guns hide in your brush and you just have to push them out. I think there's an
+                artist hidden in the bottom of every single one of us. Talk to trees, look at the birds. Whatever it
+                takes. Use what you see, don't plan it. But we're not there yet, so we don't need to worry about it.
+                This is gonna be a happy little seascape. Let's put some happy trees and bushes back in here. There
+                isn't a rule. You just practice and find out which way works best for you. I get carried away with
+                this brush cleaning. You can spend all day playing with mountains. Very easy to work these to death. I
+                spend a lot of time walking around in the woods and talking to trees, and squirrels, and little rabbits
+                and stuff. Now, we're going to fluff this cloud. Without washing the brush, I'm gonna go right into some
+                Van Dyke Brown, some Burnt Umber, and a little bit of Sap Green. Let's go up in here, and start having
+                some fun Tree trunks grow however makes them happy. Let's make some happy little clouds in our world. A
+                beautiful little sunset. Those great big fluffy clouds. Everyone is going to see things differently -
+                and that's the way it should be. Just use the old one inch brush. Let's put some highlights on these
+                little trees. The sun wouldn't forget them. This piece of canvas is your world. We'll put some happy
+                little leaves here and there. Anything you want to do you can do here. In life you need colors. The
+                little tiny Tim easels will let you down. Just a little indication. It just happens - whether or not you
+                worried about it or tried to plan it. The first step to doing anything is to believe you can do it. See
+                it finished in your mind before you ever start. Now we'll take the almighty fan brush. We want to use a
+                lot pressure while using no pressure at all. Each highlight must have it's own private shadow.
+                Just pretend you are a whisper floating across a mountain. Have fun with it. Now then, let's play.
+                Nothing wrong with washing your brush. You can do anything here. So don't worry about it.
+                Maybe, just to play a little, we'll put a little tree here. Let's have a little bit of fun today. It's
+                life. It's interesting. It's fun.
+
+            </p>
+            <img class="bob-ross-img" src="img/bob-ross.jpg" alt="Bob Ross">
+
+            <p>
+                Let all these things just sort of happen. You got your heavy coat out yet? It's getting colder.
+                We'll put some happy little leaves here and there.
+                Don't hurry. Take your time and enjoy. Just think about these things in your mind - then bring them into
+                your world. If these lines aren't straight, your water's going to run right out of your painting and get
+                your floor wet. I sincerely wish for you every possible joy life could bring.
+                I guess I'm a little weird. I like to talk to trees and animals. That's okay though; I have more fun
+                than most people. We want to use a lot pressure while using no pressure at all.
+                We'll paint one happy little tree right here. Only God can make a tree - but you can paint one.
+                If what you're doing doesn't make you happy - you're doing the wrong thing.
+                We must be quiet, soft and gentle. You don't want to kill all your dark areas they are very important.
+                These things happen automatically. All you have to do is just let them happen. I thought today we would
+                do a happy little picture. Every highlight needs it's own personal shadow. Let's put a touch more of the
+                magic here. In your imagination you can go anywhere you want. Let's get wild today. If you don't think
+                every day is a good day - try missing a few. You'll see. It's life. It's interesting.
+                It's fun. It's all a game of angles. You better get your coat out, this is going to be a cold painting.
+                You can create the world you want to see and be a part of. You have that power. If I paint something, I
+                don't want to have to explain what it is. It's a good way of getting rid of all your anxieties and
+                hostilities. Let's build an almighty mountain. We have all at one time or another mixed some mud. Don't
+                fight it, use what happens. We artists are a different breed of people. We're a happy bunch. In nature,
+                dead trees are just as normal as live trees. There are no mistakes. You can fix anything that
+                happens. I started painting as a hobby when I was little. I didn't know I had any talent. I believe
+                talent is just a pursued interest. Anybody can do what I do. This is truly an almighty mountain. These
+                trees are so much fun. I get started on them and I have a hard time stopping. Very easy to work
+                these to death. We don't have to be committed. We are just playing here. You could sit here for weeks
+                with your one hair brush trying to do that - or you could do it with one
+                stroke with an almighty brush. You can do anything your heart can imagine. Go out on a limb - that's
+                where the fruit is. We'll play with clouds today. When you do it your way you
+                can go anywhere you choose. Play with the angles. For the lack of a better word I call them hangy downs.
+                Let's put some highlights on these little trees. The sun wouldn't forget them. Automatically, all of
+                these beautiful, beautiful things will happen. I get carried away with this brush
+                cleaning. A fan brush is a fantastic piece of equipment. Use it. Make friends with it. You need the dark
+                in order to show the light. Put it in, leave it alone. I think there's an artist hidden in the bottom of
+                every single one of us. You can work and carry-on and put lots of little happy things in here. All you
+                need is a dream in your heart, and an almighty knife. There we are. You can spend all day playing with
+                mountains. From all of us here, I want to wish you happy painting and God bless, my friends. Just go out
+                and talk to a tree. Make friends with it. Just let your mind wander and enjoy. This should make you
+                happy. You have freedom here. The only guide is your heart. I really believe that if you practice enough
+                you could paint the 'Mona Lisa' with a two-inch brush. We might as well make some Almighty mountains
+                today as well, what the heck. Just make a decision and let it go. Even the worst thing we can do here is
+                good. Remember how free clouds are. They just lay around in the sky all day long. Talk to trees, look at
+                the birds. Whatever it takes. You have to make those little noises or it won't work.
+                Just take out whatever you don't want. It'll change your entire perspective. Don't forget to tell these
+                special people in your life just how special they are to you. Water's like me. It's laaazy ... Boy, it
+                always looks for the easiest way to do things And I will hypnotize that just a little bit. Let's make a
+                happy little mountain now. Everything's not great in life, but we can still find beauty in it. The only
+                thing worse than yellow snow is green snow.
+            </p>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
