@@ -10,9 +10,6 @@
     --svg-primary: #B0FE76;
     --svg-secondary: #81E979;
     --transition-speed: 800ms;
-    --box-shadow-small: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-    --box-shadow-medium: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
-    --box-shadow-large: 0 16px 32px 0 rgba(0, 0, 0, 0.6);
 }
 
 body {
@@ -34,12 +31,8 @@ body::-webkit-scrollbar-thumb {
     background: #595A4A;
 }
 
-.ipsum {
-    box-shadow: var(--box-shadow-small);
-}
-
 .ipsum img {
-    width: 60%;
+    width: 100%;
 }
 
 h1 {

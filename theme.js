@@ -1,3 +1,4 @@
+localStorage.setItem('theme', 'light');
 const themeMap = {
     dark: 'light',
     light: 'dark'
